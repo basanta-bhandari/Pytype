@@ -2,7 +2,7 @@
 
 A fast, minimal terminal-based typing speed test written in Python. Test your typing speed and accuracy right from your terminal.
 
-![Pytype](https://img.shields.io/badge/Pytype-Typing%20Test-blue) ![Python](https://img.shields.io/badge/Python-3.7+-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 ## Features
 
@@ -31,12 +31,6 @@ Run the typing test directly:
 
 ```bash
 python3 main.py
-```
-
-Or after installing via setup.py:
-
-```bash
-typing-test
 ```
 
 ## How to Use
@@ -92,26 +86,7 @@ python3 main.py
 
 - **windows-curses** (Windows only) - Terminal control library for Windows
 
-## Sample Texts
 
-The test includes various sentences to practice:
-
-- "The quick brown fox jumps over the lazy dog."
-- "Typing is a skill that improves with consistent practice and patience."
-- "Practice makes perfect, so keep typing and don't rush accuracy."
-- "Curses provides a basic terminal UI toolkit for character-cell displays."
-- "Short, focused sessions help build speed and reduce errors over time."
-
-## Project Structure
-
-```
-Pytype/
-├── main.py          # Main typing test application
-├── utils.py         # Utility functions (WPM, accuracy calculations)
-├── setup.py         # Package installation configuration
-├── .gitignore       # Git ignore rules
-└── README.md        # This file
-```
 
 ## Development
 
@@ -122,13 +97,7 @@ To contribute or modify the code:
 3. Test with `python3 main.py`
 4. Submit a pull request
 
-## License
 
-This project is open source and available for personal and commercial use.
-
-## Author
-
-Created by [Basanta Bhandari](https://github.com/basanta-bhandari)
 
 ## Known Limitations
 
@@ -161,7 +130,5 @@ Found a bug? Have a feature request? Open an issue on GitHub.
 - [ ] Custom test duration via CLI arguments
 - [ ] Difficulty levels (easy, medium, hard)
 - [ ] Score history tracking
-- [ ] Online leaderboard
-- [ ] Multiple language support
 - [ ] Theme customization
 - [ ] Using Pypi for convinience
